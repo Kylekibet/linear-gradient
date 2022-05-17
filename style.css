@@ -54,3 +54,15 @@ hr {
 .third-color {
     background: linear-gradient(90deg, #06beb6, #48b1bf);
 }
+
+@media screen and (max-width: 640px) {
+    .container {
+        padding: 25px 0;
+    }
+
+    .marker {
+        width: 300px;
+        height: 35px;
+        margin: 25px auto;
+    }
+}
