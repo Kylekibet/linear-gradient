@@ -1,0 +1,56 @@
+/* Font Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap');
+
+/* end Font Import*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Aleo', serif;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.length {
+    width: 300px;
+    margin: 0 auto;
+}
+
+hr {
+    height: 10px;
+    background: linear-gradient(90deg, #141e30, #243b55);
+    border: none;
+    border-radius: 50%;
+}
+
+.marker {
+    width: 600px;
+    height: 70px;
+    margin: 50px auto;
+}
+
+
+/* Colors from https://digitalsynopsis.com/design/beautiful-color-ui-gradients-backgrounds/ */
+
+
+.first-color {
+    background: linear-gradient(90deg, #42275a, #734b6d);
+}
+
+.second-color {
+    background: linear-gradient(90deg, #de6262, #ffb88c);
+}
+
+.third-color {
+    background: linear-gradient(90deg, #06beb6, #48b1bf);
+}
