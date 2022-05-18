@@ -45,14 +45,17 @@ hr {
 
 .first-color {
     background: linear-gradient(90deg, #42275a, #734b6d);
+    box-shadow: 0 0 20px 0 #42275a;
 }
 
 .second-color {
     background: linear-gradient(90deg, #de6262, #ffb88c);
+    box-shadow: 0 0 20px 0 #de6262;
 }
 
 .third-color {
     background: linear-gradient(90deg, #06beb6, #48b1bf);
+    box-shadow: 0 0 20px 0 #06beb6;
 }
 
 @media screen and (max-width: 640px) {
